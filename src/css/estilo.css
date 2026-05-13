@@ -24,7 +24,7 @@ header{
     justify-content:space-between;
     align-items:center;
     box-shadow: 0 5px 5px var(--color4);
-    border-radius:50px;
+    border-radius:5px;
     
 }
 header #logo{
