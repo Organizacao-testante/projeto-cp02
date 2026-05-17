@@ -1,37 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--CSS EXTERNO-->
-    <link rel="Stylesheet" href="./src/css/estilo.css">
-    <title>Projeto CP02</title>
+    <meta name="description" content="FIAPet - A loja completa para o seu pet. Produtos, acessórios e serviços com qualidade e amor.">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <title>Loja FIAPet</title>
 </head>
 <body>
+
     <div id="inicio">
+        <img src="./src/assets/logo.png" alt="FIAPet" id="imghero">
         <p id="titulo">Loja FIAPet</p>
-        <p id="frase">Entre cães e gatos, quem ganha é o PC!</p>
-        <img src="./src/assets/img.png" alt="imagem" id="imghero">
+        <p id="frase">O melhor para o seu pet com muito amor!</p>
     </div>
-    <header>
-        <img src="./src/assets/img.png" alt="imagem" id="logo">
-        
-        <nav>
-            <ul>
-                <li><a href="/projeto-cp02">Home</a></li>
-                <li><a href="/projeto-cp02/src/pages/portfolio.html">Produtos</a></li>
-                <li><a href="/projeto-cp02/src/pages/contato.html">Contato</a></li>
-                <li><a href="/projeto-cp02/src/pages/sobre.html">Sobre</a></li>
-                
-            </ul>
-        </nav>
-    </header>
-    <h1 id="titulo2">Bem vindo</h1>
-        
-    <!--JS EXTERNO-->
+
+    <div id="content">
+        <header>
+            <div class="logo-titulo">
+                <img src="./src/assets/logo.png" alt="Logo FIAPet" id="logo">
+                <span>FIAPet</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./src/pages/portfolio.html">Produtos</a></li>
+                    <li><a href="./src/pages/sobre.html">Sobre</a></li>
+                    <li><a href="./src/pages/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero-section">
+                <h1>Bem-vindo à FIAPet</h1>
+                <p>O melhor para o seu pet com o carinho que ele merece. Produtos, serviços e muito amor em um só lugar.</p>
+                <div class="nav-cards">
+                    <a href="./index.html" class="nav-card">
+                        <span class="icon">🏠</span>
+                        Home
+                    </a>
+                    <a href="./src/pages/portfolio.html" class="nav-card">
+                        <span class="icon">🛍️</span>
+                        Produtos
+                    </a>
+                    <a href="./src/pages/sobre.html" class="nav-card">
+                        <span class="icon">🐾</span>
+                        Sobre
+                    </a>
+                    <a href="./src/pages/contato.html" class="nav-card">
+                        <span class="icon">📞</span>
+                        Contato
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>FIAPet</h4>
+                    <p>A loja completa para o seu melhor amigo. Qualidade, amor e cuidado em cada produto.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <p>📞 (11) 9 9999-9999</p>
+                    <a href="mailto:contato@fiapet.com.br">✉️ contato@fiapet.com.br</a>
+                    <p>📍 São Paulo, SP</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Links</h4>
+                    <a href="./index.html">Home</a>
+                    <a href="./src/pages/portfolio.html">Produtos</a>
+                    <a href="./src/pages/sobre.html">Sobre</a>
+                    <a href="./src/pages/contato.html">Contato</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Redes Sociais</h4>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" title="Instagram">📷</a>
+                        <a href="#" class="social-link" title="Facebook">📘</a>
+                        <a href="#" class="social-link" title="WhatsApp">💬</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copy">
+                &copy; 2026 Loja FIAPet — Todos os direitos reservados
+            </div>
+        </footer>
+    </div>
+
     <script src="./src/js/script.js"></script>
-    <footer>
-        &copy; 2026 - Todos os direitos reservados (eu acho)
-    </footer>
 </body>
 </html>

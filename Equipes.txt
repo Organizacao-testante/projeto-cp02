@@ -1,0 +1,19 @@
+CHECKPOINT 2 - FRONT/WEB - 1ESPG
+FIAP - ENGENHARIA DE SOFTWARE
+Professor: Wellington Cidade Silva
+
+===================================
+INTEGRANTES DA EQUIPE
+===================================
+
+Eduardo Menzel       | RM: 570405
+Guilherme de Sousa   | RM: 570491
+Guilherme Nascimento  | RM: 572539
+Luis Pageu           | RM: 569214
+Victor Souto         | RM: 571093
+
+===================================
+TEMA: PetShop - Loja FIAPet
+===================================
+
+Link GitHub Pages: 
