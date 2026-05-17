@@ -16,4 +16,4 @@ Victor Souto         | RM: 571093
 TEMA: PetShop - Loja FIAPet
 ===================================
 
-Link GitHub Pages: 
+Link GitHub Pages: https://organizacao-testante.github.io/projeto-cp02/
